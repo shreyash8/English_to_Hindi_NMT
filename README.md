@@ -7,7 +7,29 @@ Anoop Kunchukuttan, Pratik Mehta, Pushpak Bhattacharyya. The IIT Bombay English-
 Download Link : http://www.cfilt.iitb.ac.in/iitb_parallel/
 
 
-# Evaluation
+The Parallel Corpus contains 1.6 Million Sentences. This was enough to train a NMT model.
+
+
+# PREPROCESSING
+
+1.  English Data needed Cleaning, But Hindi Data was brilliant already.
+
+2.  For Subword tokenization :  Google sentencePiece with BPE.
+
+
+
+# TRAINING
+
+1.  Used OpenNMT-py for preprocessing and training.
+
+2.  Transformer Model ( "Attention is all you need" ) Used .  Link : https://arxiv.org/abs/1706.03762
+
+3.  Most of the Hyperparameters were taken as it is from given paper.
+
+4.  Ran for 50K epochs.  (Was not necessary, 30K will do Fine)
+
+
+# EVALUATION
 
 
 Bleu-1  : 46.5
