@@ -29,6 +29,15 @@ The Parallel Corpus contains 1.6 Million Sentences. This was enough to train a N
 4.  Ran for 50K epochs.  (Was not necessary, 30K will do Fine)
 
 
+# PREDICTION
+
+1.  OpenNMT has very efficient translation function implemented.
+
+2.  After Translating, We had to Detokenize to Evaluate our predictions.
+
+3.  I have uploaded my predictions. But, Other Data must be Downloaded from IITB.
+
+
 # EVALUATION
 
 
