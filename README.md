@@ -26,7 +26,7 @@ The Parallel Corpus contains 1.6 Million Sentences. This was enough to train a N
 
 3.  Most of the Hyperparameters were taken as it is from given paper.
 
-4.  Ran for 50K epochs.  (Was not necessary, 30K will do Fine)
+4.  Ran for 50K steps.  (Was not necessary, 30K will do Fine)
 
 
 # PREDICTION
